@@ -6,14 +6,14 @@ import PackageDescription
 let package = Package(
     name: "DriverSDL",
     dependencies:[
-    .package(url: "../CSDL", branch: "master")
+    .package(url: "git@github.com:Santhosh-KS/CSDL2.git", branch: "master")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .executableTarget(
             name: "DriverSDL",
-            dependencies: ["CSDL"],
+            dependencies: [.product(name: "CSDL", package: "CSDL2")],
             path: "Sources"),
     ]
 )

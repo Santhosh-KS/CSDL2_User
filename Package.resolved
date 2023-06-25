@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "csdl",
-      "kind" : "localSourceControl",
-      "location" : "/home/gl-245/work/sdl_stuff/test/CSDL",
+      "identity" : "csdl2",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:Santhosh-KS/CSDL2.git",
       "state" : {
         "branch" : "master",
-        "revision" : "c6c9567f3d6b3850232ae1581a5d9c09eca319bb"
+        "revision" : "2a90d5fa62a0c5d3738edaa714867a658a4bf663"
       }
     }
   ],
