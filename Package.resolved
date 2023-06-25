@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "csdl",
+      "kind" : "localSourceControl",
+      "location" : "/home/gl-245/work/sdl_stuff/test/CSDL",
+      "state" : {
+        "branch" : "master",
+        "revision" : "c6c9567f3d6b3850232ae1581a5d9c09eca319bb"
+      }
+    }
+  ],
+  "version" : 2
+}
